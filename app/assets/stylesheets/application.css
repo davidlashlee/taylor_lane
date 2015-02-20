@@ -12,4 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ *= require template/animate
+ *= require template/animations
+ *= require template/custom
+ *= require template/style
  */
