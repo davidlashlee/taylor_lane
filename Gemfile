@@ -45,6 +45,9 @@ gem 'binding_of_caller'
 gem 'validates_formatting_of'
 gem 'tzinfo-data'
 
+gem 'therubyracer'
+gem 'less-rails-bootstrap'
+
 group :development do
   gem 'better_errors'
   gem 'pry-rails'
