@@ -10,7 +10,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner.jpg');
+		$(".banner-image").backstretch('assets/yacht2.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------
@@ -36,13 +36,15 @@
 
 		//Scroll Spy
 		//-----------------------------------------------
-		if($(".scrollspy").length>0) {
-			$("body").addClass("scroll-spy");
-			$('body').scrollspy({ 
-				target: '.scrollspy',
-				offset: 152
-			});
-		}
+		 $(window).scroll(function(){
+			if($(".scrollspy").length>0) {
+				$("body").addClass("scroll-spy");
+				$("body").scrollspy({ 
+					target: ".scrollspy",
+					offset: 152
+				});
+			}
+		});
 
 		//Smooth Scroll
 		//-----------------------------------------------

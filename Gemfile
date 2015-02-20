@@ -47,6 +47,7 @@ gem 'tzinfo-data'
 
 gem 'therubyracer'
 gem 'less-rails-bootstrap'
+gem 'font-awesome-rails'
 
 group :development do
   gem 'better_errors'

@@ -13,7 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require custom
-//= require template
+//= requrie template/plugins/modernizr
+//= require template/plugins/jquery.appear
+//= require template/plugins/jquery.backstretch.min
+//= require template/plugins/isotope/isotope.pkgd.min
+//= require template/template
+//= require template/custom
 //= require_tree .
 
